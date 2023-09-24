@@ -1,6 +1,6 @@
 ﻿streamlit
 streamlit_chat
-os
+python-dotenv
 PyPDF2
 docx
 csv
