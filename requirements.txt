@@ -6,3 +6,4 @@ python-docx
 langchain
 sentence-transformers
 faiss-gpu
+openai
