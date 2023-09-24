@@ -17,6 +17,16 @@ from streamlit_chat import message
 # key
 OpenAI_Api_Key = st.secrets["OPENAI_API_KEY"]
 
+Hide_button = """
+<style>
+    header{
+        visibility:hidden;
+    }
+</style>
+"""
+
+st.markdown(Hide_button, unsafe_allow_html = True)
+
 def main():
     load_dotenv()
 
