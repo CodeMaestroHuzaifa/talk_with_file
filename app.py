@@ -14,26 +14,19 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.callbacks import get_openai_callback
 from streamlit_chat import message
 
-# key
-
-
-Hide_button = """
-<style>
-    header{
-        visibility:hidden;
-    }
-</style>
-"""
-
-st.markdown(Hide_button, unsafe_allow_html = True)
-
 st.set_page_config(page_title="Talk With File", page_icon="logo.png"
 
 def main():
     load_dotenv()
-
     # page
-    
+    Hide_button = """
+    <style>
+        header{
+            visibility:hidden;
+        }
+    </style>
+    """
+    st.markdown(Hide_button, unsafe_allow_html = True)
     st.header("Documnet GPT")
     # memory
     if "conversation" not in st.session_state:
