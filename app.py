@@ -11,7 +11,7 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain.llm import OpenAI
+from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 from streamlit_chat import message
 
