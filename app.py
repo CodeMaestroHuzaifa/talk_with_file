@@ -21,7 +21,7 @@ def main():
     load_dotenv()
 
     # page
-    st.set_page_config(page_title="Talk With File", page_icon="/home/coder/Desktop/code/ic_launcher_round (3).png")
+    st.set_page_config(page_title="Talk With File", page_icon="logo.png")
     st.header("Documnet GPT")
     # memory
     if "conversation" not in st.session_state:
