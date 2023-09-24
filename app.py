@@ -15,7 +15,7 @@ from langchain.callbacks import get_openai_callback
 from streamlit_chat import message
 
 # key
-# OpenAI_Api_Key = st.secrets["OPENAI_API_KEY"]
+
 
 Hide_button = """
 <style>
