@@ -14,7 +14,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.callbacks import get_openai_callback
 from streamlit_chat import message
 
-st.set_page_config(page_title="Talk With File", page_icon="logo.png"
+st.set_page_config(page_title="Talk With File", page_icon="logo.png")
 
 def main():
     load_dotenv()
