@@ -26,7 +26,7 @@ def main():
         }
     </style>
     """
-    st.markdown(Hide_button, unsafe_allow_html = True)
+    st.markdown(Hide_button, unsafe_allow_html=True)
     st.header("Documnet GPT")
     # memory
     if "conversation" not in st.session_state:
