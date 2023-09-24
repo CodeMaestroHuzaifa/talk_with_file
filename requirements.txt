@@ -3,5 +3,4 @@ streamlit_chat
 python-dotenv
 PyPDF2
 python-docx
-csv
 langchain
