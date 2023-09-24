@@ -11,6 +11,7 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
+from langchain.llm import OpenAI
 from langchain.callbacks import get_openai_callback
 from streamlit_chat import message
 
@@ -42,7 +43,7 @@ def main():
     with st.sidebar:
         uploaded_files = st.file_uploader("Upload Your File", type=["pdf","docx"], accept_multiple_files=True)
         # openai_api_key = OpenAI_Api_Key
-        openai_api_key = "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"
+        openai_api_key = "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"
         # openai_api_key = st.text_input("OpenAI Key:", key="openai_key", type="password")
         process = st.button("Process")
     
