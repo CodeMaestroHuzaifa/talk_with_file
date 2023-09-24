@@ -5,3 +5,4 @@ PyPDF2
 python-docx
 langchain
 sentence-transformers
+faiss-gpu
