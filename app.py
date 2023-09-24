@@ -69,7 +69,7 @@ def main():
 
     # input
     if st.session_state.processCompletion == True:
-        user_query = st.chat_input("Ask questions about your documen")
+        user_query = st.chat_input("Ask questions about your document")
         if user_query:
             handle_userinput(user_query)
 
