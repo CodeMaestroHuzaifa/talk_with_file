@@ -32,7 +32,7 @@ def main():
     </style>
     """
     st.markdown(hide_button, unsafe_allow_html=True)
-    st.title("Document GPT")
+    st.title("Talk With Documnet")
     
     # memory
     if "conversation" not in st.session_state:
