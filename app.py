@@ -44,7 +44,7 @@ def main():
 
     # interface
     with st.sidebar:
-        uploaded_files = st.file_uploader("Upload Your File", type=['pdf','docx'], accept_multiple_files=True)
+        uploaded_files = st.file_uploader("Upload Your File", type=['pdf'], accept_multiple_files=True)
         openai_key = st.text_input("OpenAI Key", key="openai_api_key", type="password")
         process = st.button("Process")  
     
