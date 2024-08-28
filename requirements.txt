@@ -4,6 +4,7 @@ python-dotenv
 PyPDF2
 python-docx
 langchain
+langchain_community
 sentence-transformers
 faiss-gpu
 openai
